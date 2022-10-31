@@ -31,3 +31,5 @@ def menu():
                if  '3' or '03':
                  exit()
 clear()
+back()
+menu()
