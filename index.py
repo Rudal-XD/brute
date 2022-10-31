@@ -20,5 +20,4 @@ def menu():
                if  '3' or '03':
                  exit()
 
-menu =='__main__'
- menu() #line 25
+menu =='__main__' #line 25
