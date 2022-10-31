@@ -20,5 +20,6 @@ def menu():
                  exit()
                if  '3' or '03':
                  exit()
-           
-min()
+
+menu='__main__':
+menu()
