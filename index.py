@@ -1,6 +1,4 @@
 import os,sys,json
-import rich 
-import json
 
 def banner():
        print(f'''
