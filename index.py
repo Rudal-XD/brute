@@ -19,8 +19,9 @@ def menu():
        ''')
        self.pilih()
        def pilih(self):
-              if input('choose:'):
-               if  '1' or '01':
+              if usna input('choose:'):
+               if usna in ['']:
+               elif  in ['1'] or ['01']:
                  r=get('xdg-open https://youtube.com/channel/UC5v_VjMTskJ6JjgxNLlXBCg')
                else:
                  exit()
@@ -30,6 +31,6 @@ def menu():
                  exit()
                if  '3' or '03':
                  exit()
-clear()
-back()
-menu()
+if __name__ == '__main__':
+   os.system('git pull')
+   menu().main()
