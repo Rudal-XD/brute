@@ -4,7 +4,13 @@ def clear():
     os.system('clear')
 def back():
     os.system('menu')
+
+def banner():
+       print('''
+             -_--_-_-_-_-_-_-_-_-_-_-_-__-_-_-
+             ''')
 def menu():
+       banner()
        print(f'''
        pilih yang mau di jalankan:
        1.youtube
