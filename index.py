@@ -21,5 +21,5 @@ def menu():
                if  '3' or '03':
                  exit()
 
-menu='__main__':
+menu =='__main__':
 menu()
