@@ -18,18 +18,18 @@ def menu():
        3.exit
        ''')
        self.pilih()
-       def pilih(self):
-              usna input('choose:'):
+      def pilih(self):
+              usna = input('choose:'):
                if usna in ['']:
                elif  in ['1'] or ['01']:
                  r=get('xdg-open https://youtube.com/channel/UC5v_VjMTskJ6JjgxNLlXBCg')
                else:
                  exit()
-               if  '2' or '02':
+               elif  '2' or '02':
                  r=get('xdg-open https://wa.me.0895386194665')
                else:
                  exit()
-               if  '3' or '03':
+               elif  '3' or '03':
                  exit()
 if __name__ == '__main__':
    os.system('git pull')
