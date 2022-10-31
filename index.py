@@ -2,7 +2,6 @@ import os,sys,json
 
 def clear():
     os.system('clear')
-    sleep(1)
 def back():
     os.system('menu')
 def menu():
