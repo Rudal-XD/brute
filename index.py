@@ -7,8 +7,7 @@ def menu():
        2.whatsaap
        3.exit
        ''')
-       self()
-       def pilih(self):
+       def pilih(menu):
               if input('choose:'):
                if  '1' or '01':
                  r=get('xdg-open https://youtube.com/channel/UC5v_VjMTskJ6JjgxNLlXBCg')
@@ -22,4 +21,4 @@ def menu():
                  exit()
 
 menu =='__main__'
-menu()
+ menu() #line 25
