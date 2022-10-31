@@ -1,4 +1,4 @@
-import os,sys,json
+import os,sys,json,self
 
 def clear():
     os.system('clear')
