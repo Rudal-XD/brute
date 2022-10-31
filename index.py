@@ -1,6 +1,6 @@
 import os,sys,json
 
-def banner():
+def menu():
        print(f'''
        pilih yang mau di jalankan:
        1.youtube
@@ -21,3 +21,4 @@ def banner():
                if  '3' or '03':
                  exit()
            
+main()
