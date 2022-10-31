@@ -11,8 +11,8 @@ def banner():
        ''')
        pilih.self()
        def pilih(self):
-              if = input('choose:')
-              elif == '1' or '01'
+              if == input('choose:')
+              elif = '1' or '01'
               r=get('xdg-open https://youtube.com/channel/UC5v_VjMTskJ6JjgxNLlXBCg')
               else:
               exit()
