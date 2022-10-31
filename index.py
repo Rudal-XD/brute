@@ -13,7 +13,7 @@ def menu():
        2.whatsaap
        3.exit
        ''')
-       self.pilih():
+       self.pilih()
        def pilih(self):
               if input('choose:'):
                if  '1' or '01':
