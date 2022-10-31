@@ -19,8 +19,9 @@ def menu():
        ''')
        self.pilih()
        def pilih(self):
-              usna = input('choose:')
+           usna = input('choose:')
                if usna in ['']:
+                 print('salah woi')
                elif usna in ['1'] or ['01']:
                  r=requests.get('xdg-open https://youtube.com/channel/UC5v_VjMTskJ6JjgxNLlXBCg')
                else:
