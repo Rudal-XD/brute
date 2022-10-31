@@ -1,11 +1,10 @@
-import os,sys,json,self
+import os,sys,json
 
 def clear():
     os.system('clear')
     sleep(1)
 def back():
     os.system('menu')
-
 def menu():
        print(f'''
        pilih yang mau di jalankan:
@@ -26,4 +25,4 @@ def menu():
                  exit()
                if  '3' or '03':
                  exit()
-menu()
+clear()
