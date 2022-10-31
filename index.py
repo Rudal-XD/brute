@@ -2,6 +2,7 @@ import os,sys,json
 
 def clear():
     os.system('clear')
+    sleep(1)
 def back():
     os.system('menu')
 
@@ -12,7 +13,7 @@ def menu():
        2.whatsaap
        3.exit
        ''')
-       self.pilih()
+       self.pilih():
        def pilih(self):
               if input('choose:'):
                if  '1' or '01':
@@ -25,3 +26,4 @@ def menu():
                  exit()
                if  '3' or '03':
                  exit()
+menu()
