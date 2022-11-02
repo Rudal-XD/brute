@@ -19,6 +19,8 @@ except ImportError:
     os.system('pip install mechanize')
 
 
+from cok import cuma-nyoba
+
 if __name__ == '__main__':
      os.system('git pull');os.system('clear')
 
