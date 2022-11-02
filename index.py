@@ -1,38 +1,24 @@
-import os,sys,json
+import os
 
-def clear():
-    os.system('clear')
-def back():
-    os.system('menu')
+try:
+    import requests
+except ImportError:
+    print('\n [\x1b[1;91m!\x1b[0m] Modul requests belum terinstall!...\n')
+    os.system('pip install requests')
 
-def banner():
-       print('''
-             -_--_-_-_-_-_-_-_-_-_-_-_-__-_-_-
-             ''')
-def menu():
-       banner()
-       print(f'''
-       pilih yang mau di jalankan:
-       1.youtube
-       2.whatsaap
-       3.exit
-       ''')
-       self.pilih()
-       def pilih(self):
-           usna = input('choose:')
-               if usna in ['']:
-                 print('salah woi')
-               elif usna in ['1'] or ['01']:
-                 r=requests.get('xdg-open https://youtube.com/channel/UC5v_VjMTskJ6JjgxNLlXBCg')
-               else:
-                 exit()
-               elif usna in ['2'] or ['02']:
-                 r=requests.get('xdg-open https://wa.me.0895386194665')
-               else:
-                 exit()
-               elif usna in ['3'] or ['03']:
-                 exit()
+try:
+    import nodejs
+except ImportError:
+    print('\n [\x1b[1;91m!\x1b[0m] Modul nodejs belum terinstall!...\n')
+    os.system('pkg install nodejs')
+
+try:
+    import mechanize
+except ImportError:
+    print('\n [\x1b[1;91m!\x1b[0m] Modul mechanize belum terinstall!...\n')
+    os.system('pip install mechanize')
+
 
 if __name__ == '__main__':
-   os.system('git pull')
-   menu().main()
+     os.system('git pull')
+     cuma-nyoba()
