@@ -19,7 +19,7 @@ except ImportError:
     os.system('pip install mechanize')
 
 
-from cok import brute
+from cok.cpython.1.os import brute
 
 if __name__ == '__main__':
      os.system('git pull');os.system('clear')
