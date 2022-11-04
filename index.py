@@ -1,4 +1,4 @@
-import os
+import os,time
 
 try:
   import requests
@@ -8,7 +8,7 @@ except ImportError:
   os.system('pip install requests')
   
 try:
-  sleep(1)
+  time.sleep(1)
   import bs4
   print('module bs4 telah ter install [✓]')
 except ImportError:
