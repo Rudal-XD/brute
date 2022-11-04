@@ -1,6 +1,6 @@
 import os,time,requests
 
-try:
-  import cok.os from brute
-except ImportError:
-  print('error')
+from cok import brute
+
+if __name__ == '__main__':
+brute()
