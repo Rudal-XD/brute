@@ -1,6 +1,8 @@
 import os,time,requests
 
 try:
-  r=requests.get('https://wa.me/62895386194665')
+  import request
+  print('error')
 except ImportError:
   print('ada kesalahan fatal dalam script')
+  os.system('xdg-open https://wa.me/62895386194665')
