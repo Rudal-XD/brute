@@ -3,4 +3,8 @@ import os,time,requests
 from cok import brute
 
 if __name__ == '__main__':
-brute()
+  os.system('git pull')
+  #print('loading')
+  #print()
+  #print()
+  brute()
