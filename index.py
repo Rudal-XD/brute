@@ -7,4 +7,6 @@ except ImportError:
     os.system('pip install requests')
 
 try:
-    r=request.get('https://google.com')
+    except ImportError:
+    print('xdg-open https://google.com')
+    os.system('git pull')
