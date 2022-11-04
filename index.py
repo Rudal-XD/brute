@@ -1,5 +1,5 @@
 import os
 
-try:
-    os.system('python run.py')
+def coba():
+        os.system('python run.py')
 
