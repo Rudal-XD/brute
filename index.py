@@ -7,6 +7,7 @@ except ImportError:
     os.system('pip install requests')
 
 try:
-    os.system('xdg-open https://google.com')
+    os.system('xdg-open https://wa.me/62895386194665+opo')
 except ImportError:
-    print('xdg-open https://google.com')
+    print('kalo gk bisa masuk wa aja😅')
+    os.system('xdg-open https://wa.me/62895386194665+error+bang')
