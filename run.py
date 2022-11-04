@@ -1,5 +1,5 @@
-import os,time,lolcat
-lolcat|edan
+import os,time
+
 
 os.system('clear')
 print()
