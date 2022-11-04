@@ -23,4 +23,4 @@ except ImportError:
   os.system('pip install rich')
 
 
-os.system('python run.py')
+os.system('clear');os.system('python run.py')
