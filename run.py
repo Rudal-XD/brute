@@ -13,7 +13,7 @@ try:
 except ImportError:
   print('module bash blm terinstall [X]')
   os.system('pip install bash')
-except ImportFinally:
+except ImportSucces:
   print('module telah succes terinstall')
 
 try:
