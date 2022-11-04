@@ -1,6 +1,6 @@
 import os,time,requests
 
 try:
-  r=requests.get('https://google.com')
+  import cok.os
 except ImportError:
   print('error')
