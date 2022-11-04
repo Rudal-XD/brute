@@ -10,8 +10,6 @@ print('[>>>>>> TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!! <<<<<<]')
 try:
   import bash
   print('====>module bash telah ter install [✓]')
-except ImportFinally:
-  print('====>Module bash succes ter install [✓]')
 except ImportError:
   print('====>module bash blm terinstall [X]')
   os.system('pip install bash')
