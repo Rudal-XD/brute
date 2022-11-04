@@ -1,10 +1,18 @@
 import os,time
+lolcat|edan
 
 os.system('clear')
 print()
 print()
 print('[>>>>>> TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!! <<<<<<]')
 
+
+try:
+  import lolcat
+  print('module lolcat telah ter install [✓]')
+except ImportError:
+  print('module lolcat blm terinstall [X]')
+  os.system('pip install lolcat')
 try:
   time.sleep(1)
   import requests
@@ -12,7 +20,6 @@ try:
 except ImportError:
   print('[!] module requests belum di install !!!')
   os.system('pip install requests')
-  print()
 try:
   time.sleep(1)
   import bs4
@@ -20,7 +27,6 @@ try:
 except ImportError:
   print('[!] module bs4 belum di install !!!')
   os.system('pip install bs4')
-  print()
 
 try:
   time.sleep(1)
@@ -29,7 +35,8 @@ try:
 except ImportError:
   print('[!] module rich belum di install !!!')
   os.system('pip install rich')
-  print()
+
+
 time.sleep(1)
 print('[<<<<<SEMUA DATA TELAH DI INSTALL DENGAN BAIK😚😚>>>>>]')
 
