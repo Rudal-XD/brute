@@ -1,7 +1,7 @@
 import os
 
 try:
-  import request 
+  import requests
   print('module requests telah ter install')
 except ImportError:
   print('[!] module requests belum di install !!!')
