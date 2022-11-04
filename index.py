@@ -30,4 +30,4 @@ except ImportError:
 
 print('---SEMUA DATA TELAH DI INSTALL DENGAN BAIK😚😚---')
 
-time.sleep(2);os.system('clear');os.system('python run.py')
+time.sleep(5);os.system('clear');os.system('python run.py')
