@@ -1,6 +1,11 @@
 import os,time
 
 try:
+  os.system('clear')
+  print('TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!!')
+
+try:
+  time.sleep(1)
   import requests
   print('module requests telah ter install [✓]')
 except ImportError:
@@ -17,6 +22,7 @@ except ImportError:
   
 
 try:
+  time.sleep(1)
   import rich
   print('module rich telah ter install[✓]')
 except ImportError:
