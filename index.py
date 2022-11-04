@@ -8,6 +8,7 @@ except ImportError:
   os.system('pip install requests')
   
 try:
+  sleep(1)
   import bs4
   print('module bs4 telah ter install [✓]')
 except ImportError:
