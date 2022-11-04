@@ -9,12 +9,12 @@ print('[>>>>>> TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!! <<<<<<]')
 
 try:
   import bash
-  print('module bash telah ter install [✓]')
-except ImportError:
-  print('module bash blm terinstall [X]')
-  os.system('pip install bash')
+  print('====>module bash telah ter install [✓]')
 except ImportSucces:
-  print('module telah succes terinstall')
+  print('====>Module bash succes ter install [✓]')
+except ImportError:
+  print('====>module bash blm terinstall [X]')
+  os.system('pip install bash')
 
 try:
   time.sleep(1)
