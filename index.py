@@ -1,4 +1,4 @@
-import os,time,requests,datetime,jshon,random 
+import os,time,requests,datetime,random 
 
 from src.cok import brute
 
