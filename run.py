@@ -1,4 +1,4 @@
 import os
 
-
-os.system('https://wa.me/62895386194665')
+def coba():
+       print('xdg-open https://wa.me/62895386194665')
