@@ -1,7 +1,7 @@
 import os,time
 
 os.system('clear')
-print('TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!!')
+print('######TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!!#######')
 
 try:
   time.sleep(1)
@@ -28,5 +28,5 @@ except ImportError:
   print('[!] module rich belum di install !!!')
   os.system('pip install rich')
 
-
+time.sleep(2);print('---SEMUA DATA TELAH DI INSTALL DENGAN BAIK😚😚---')
 os.system('clear');os.system('python run.py')
