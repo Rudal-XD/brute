@@ -1,7 +1,6 @@
 import os,time
 
-def clear():
-  os.system('clear')
+os.system('clear')
 print('TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!!')
 
 try:
