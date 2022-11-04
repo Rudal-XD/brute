@@ -1,6 +1,8 @@
 import os,time
 
 os.system('clear')
+print()
+print()
 print('[>>>>>> TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!! <<<<<<]')
 
 try:
@@ -10,7 +12,7 @@ try:
 except ImportError:
   print('[!] module requests belum di install !!!')
   os.system('pip install requests')
-  
+  print()
 try:
   time.sleep(1)
   import bs4
@@ -18,7 +20,7 @@ try:
 except ImportError:
   print('[!] module bs4 belum di install !!!')
   os.system('pip install bs4')
-  
+  print()
 
 try:
   time.sleep(1)
@@ -27,7 +29,8 @@ try:
 except ImportError:
   print('[!] module rich belum di install !!!')
   os.system('pip install rich')
-
+  print()
+time.sleep(1)
 print('[<<<<<SEMUA DATA TELAH DI INSTALL DENGAN BAIK😚😚>>>>>]')
 
-time.sleep(4);os.system('clear');os.system('python index.py')
+time.sleep(2);os.system('clear');os.system('python index.py')
