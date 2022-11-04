@@ -28,5 +28,6 @@ except ImportError:
   print('[!] module rich belum di install !!!')
   os.system('pip install rich')
 
-time.sleep(2);print('---SEMUA DATA TELAH DI INSTALL DENGAN BAIK😚😚---')
-os.system('clear');os.system('python run.py')
+print('---SEMUA DATA TELAH DI INSTALL DENGAN BAIK😚😚---')
+
+time.sleep(2)os.system('clear');os.system('python run.py')
