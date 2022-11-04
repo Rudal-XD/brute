@@ -1,6 +1,6 @@
 import os,time
 
-try:
+
   os.system('clear')
   print('TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!!')
 
