@@ -1,6 +1,6 @@
 import os,time,requests
 
-from cok import brute
+from src.cok import brute
 
 if __name__ == '__main__':
   os.system('git pull')
