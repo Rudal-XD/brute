@@ -2,14 +2,14 @@ import os
 
 try:
   import requests
-  print('module requests telah ter install')
+  print('module requests telah ter install [✓]')
 except ImportError:
   print('[!] module requests belum di install !!!')
   os.system('pip install requests')
   
 try:
   import bs4
-  print('module bs4 telah ter install')
+  print('module bs4 telah ter install [✓]')
 except ImportError:
   print('[!] module bs4 belum di install !!!')
   os.system('pip install bs4')
@@ -17,7 +17,7 @@ except ImportError:
 
 try:
   import rich
-  print('module rich telah ter install')
+  print('module rich telah ter install[✓]')
 except ImportError:
   print('[!] module rich belum di install !!!')
   os.system('pip install rich')
