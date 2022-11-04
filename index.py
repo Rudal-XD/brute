@@ -1,8 +1,8 @@
 import os,time
 
-
+def clear():
   os.system('clear')
-  print('TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!!')
+print('TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!!')
 
 try:
   time.sleep(1)
