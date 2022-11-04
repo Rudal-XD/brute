@@ -8,11 +8,14 @@ print('[>>>>>> TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!! <<<<<<]')
 
 
 try:
-  import lolcat
-  print('module lolcat telah ter install [✓]')
+  import bash
+  print('module bash telah ter install [✓]')
 except ImportError:
-  print('module lolcat blm terinstall [X]')
-  os.system('pip install lolcat')
+  print('module bash blm terinstall [X]')
+  os.system('pip install bash')
+except finally:
+  print('module telah succes terinstall')
+
 try:
   time.sleep(1)
   import requests
