@@ -18,7 +18,7 @@ def menu():
             3.(exit)
             """)
      print()
-     pilih.self()
+     self(pilih)
 
 def pilih(self):
    print()
