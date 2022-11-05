@@ -9,7 +9,7 @@ try:
         def main(self):
              usna == input('choose:')
              if usna in ['']:
-             print()
+                 print()
              elif usna in ['1']:
                  try:
                     r=requests.get('https://google.com')
