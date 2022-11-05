@@ -1,16 +1,13 @@
 import os,time,sys
-
+os.system('clear')
 def jalan(self):
 	for wibu in self + "\n":
-		sys.stdout.write(wibu)
-		sys.stdout.flush()
-		time.sleep(0.03)
+		sys.stdout.write(|)
+		sys.stdout.flush(-)
+		time.sleep(1)
+                jalan('TUNGGU SEBENTAR SEDANG MENG-INSTALL FILE YANG DIPERLUKAN')
 
-if __name__ == "__main__":
-     os.system('clear')
-     jalan('yang bener kamu nanyea /n ow kamu bocil /n ngntd lo')
-
-os.system('clear')
+time.sleep(1)
 print()
 print()
 print('[>>>>>> TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!! <<<<<<]')
