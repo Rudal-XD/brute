@@ -16,24 +16,7 @@ J = '\033[38;2;255;127;0;1m' # ORANGE
 
 def banner():
      print(f'''
-╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮
-┃╭┈─────────────⩵꙰ཱི࿐
-┃╰── ⏤͟͟͞GOOD BYE ──➤ ↶↷
-╰━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━͙✩̣̣̣̣
- ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
-╭━━•›〘 STATUS 〙
-│➳ LEAVING FROM
-│➳ ${metadata.subject}
-╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
- ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
-╭━━•›〘 SUBSCRIBE 〙
-│➳ Channel YouTube
-│➳ FARIZ MODS
-│➳ https://youtube.com/channel/UCmfGOnP_M0ucKN8Y5Y4yBOQ
-╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
- ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
-
-© FARIZ V5
+     ##############################################
      ''')
 
 def menu():
