@@ -1,6 +1,5 @@
 import os,time,requests,datetime,random 
 
-import self
 import rich
 import bs4
 import requests
@@ -18,7 +17,7 @@ def menu():
             2.login
             3.(exit)
             """)
-     print()
+     print('error')
      self.pilih()
 
 def pilih(self):
