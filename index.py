@@ -24,7 +24,8 @@ def pilih(self):
    usna = input('choose:')
    if usna in ['']:
        print('masukan nomer nya')
-   elif usna in ['1']
+   elif usna in ['1']:
+       print()
        r=requests.get('https://google.com')
    else:
        exit()
