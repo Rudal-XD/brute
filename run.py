@@ -1,7 +1,8 @@
 import os,time,sys
 os.system('clear')
 def jalan(self):
-	for # in self + "\n":
+	for wibu in self + "\n":
+                sys.stdout.write(wibu)
 	        sys.stdout.write('#########################################')
                        sys.stdout.write('#')
                 sys.stdout.write('#########################################')
