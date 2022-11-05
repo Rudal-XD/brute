@@ -3,8 +3,6 @@ import sys
 import rich
 import requests
 try:
-   print('male or female')
-   print()
    def __init__(self):
         def main(self):
              usna == input('choose:')
