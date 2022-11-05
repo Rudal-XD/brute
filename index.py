@@ -18,7 +18,8 @@ def menu():
             2.login
             3.(exit)
             """)
-     self.pilih()
+     self.pilih():
+
   def pilih(self):
        usna = input('choose:')
        if usna in ['']
