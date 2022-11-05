@@ -19,14 +19,14 @@ def menu():
             3.(exit)
             """)
      self.pilih()
-       def pilih(self):
-         print('choose:')
-          usna = input('choose:')
-          if usna in ['']
-          elif usna in ['1']
-               r=requests.get('https://google.com')
-          else:
-               exit()
+def pilih(self):
+   print('choose:')
+   usna = input('choose:')
+   if usna in ['']
+   elif usna in ['1']
+       r=requests.get('https://google.com')
+   else:
+       exit()
       
 
 
