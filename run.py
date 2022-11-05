@@ -7,8 +7,8 @@ def jalan(self):
 		time.sleep(0.03)
 
 if __name__ == "__main__":
-     os.system()
-     jalan('self')
+     os.system('clear')
+     jalan('yang bener kamu nanyea /n ow kamu bocil /n ngntd lo')
 
 os.system('clear')
 print()
