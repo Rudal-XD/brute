@@ -4,7 +4,7 @@ def jalan(self):
 	for wibu in self + "\n":
 		sys.stdout.write('|')
 		sys.stdout.flush()
-		time.sleep(1)
+		time.sleep(0.03)
 jalan('TUNGGU SEBENTAR SEDANG MENG-INSTALL FILE YANG DIPERLUKAN')
 
 time.sleep(1)
