@@ -1,5 +1,10 @@
 import os,time
 
+def jalan(kontol):
+	for wibu in kontol + "\n":
+		sys.stdout.write(wibu)
+		sys.stdout.flush()
+		time.sleep(0.03)
 
 os.system('clear')
 print()
