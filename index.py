@@ -30,10 +30,10 @@ def pilih(self):
       
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
   os.system('git pull');os.system('clear')
   #print('loading')
   #print()
   #print()
-  index()
+  brute()
   print()
