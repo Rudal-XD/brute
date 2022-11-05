@@ -1,7 +1,7 @@
 import os
 import sys
 import rich
-
+import requests
 try:
    print('male or female')
    print()
