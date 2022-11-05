@@ -50,5 +50,5 @@ time.sleep(2);os.system('clear');os.system('python index.py')
 
 if __name__ == "__main__":
      os.system('git pull')
-     menu();main()
+     main()
      jalan()
