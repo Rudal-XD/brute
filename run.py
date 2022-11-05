@@ -7,8 +7,8 @@ def jalan(self):
 		time.sleep(0.03)
 
 if __name__ == "__main__":
-     os.system('git pull')
-     jalan('self')
+     os.system()
+     jalan('MAU LO GUA BUNUH ANJ')
 
 os.system('clear')
 print()
