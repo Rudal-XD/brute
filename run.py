@@ -2,9 +2,9 @@ import os,time,sys
 os.system('clear')
 def jalan(self):
 	for wibu in self + "\n":
-		sys.stdout.write('#########################################')
-                sys.stdout.write('#/n')
-                sys.stdout.write('#########################################')
+	       sys.stdout.write('#########################################')
+               sys.stdout.write('#/n')
+               sys.stdout.write('#########################################')
 		sys.stdout.flush()
 		time.sleep(0.03)
 jalan('self')
