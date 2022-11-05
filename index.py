@@ -1,7 +1,5 @@
 import os,time,requests,datetime,random 
 
-
-import mechanize 
 import rich
 import bs4
 import requests
