@@ -8,7 +8,7 @@ def jalan(self):
 
 if __name__ == "__main__":
      os.system('git pull')
-     jalan()
+     jalan('self')
 
 os.system('clear')
 print()
