@@ -19,7 +19,7 @@ def menu():
             3.(exit)
             """)
      self.pilih()
-   def pilih():
+    def pilih():
      usna = input('choose:')
        if usna in ['']
        elif usna in ['1']
