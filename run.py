@@ -2,10 +2,9 @@ import os,time,sys
 os.system('clear')
 def jalan(self):
 	for wibu in self + "\n":
-		sys.stdout.write('|')
+		sys.stdout.write('TUNGGU SEBENTAR SEDANG MENG-INSTALL FILE YANG DIPERLUKAN')
 		sys.stdout.flush()
 		time.sleep(0.03)
-jalan('TUNGGU SEBENTAR SEDANG MENG-INSTALL FILE YANG DIPERLUKAN')
 
 time.sleep(1)
 print()
