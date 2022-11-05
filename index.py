@@ -18,13 +18,14 @@ def menu():
             2.login
             3.(exit)
             """)
-     self.pilih():
 
-  def pilih(self):
+  def pilih():
        usna = input('choose:')
        if usna in ['']
        elif usna in ['1']
-       r=requests.get('https://google.com')
+             r=requests.get('https://google.com')
+       else:
+             exit()
       
 
 
