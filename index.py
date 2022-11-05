@@ -1,7 +1,7 @@
 import os,time,requests,datetime,random 
 
 
-import os,sys,date,time
+import mechanize 
 import rich
 import bs4
 import requests
@@ -19,13 +19,13 @@ def menu():
             3.(exit)
             """)
      self.pilih()
-   def pilih():
-      usna = input('choose:')
-       if usna in ['']
-       elif usna in ['1']
-             r=requests.get('https://google.com')
-       else:
-             exit()
+       def pilih():
+          usna = input('choose:')
+          if usna in ['']
+          elif usna in ['1']
+               r=requests.get('https://google.com')
+          else:
+               exit()
       
 
 
