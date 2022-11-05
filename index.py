@@ -7,10 +7,10 @@ try:
    print()
    def __init__(self):
         def main(self):
-            usna == input('choose:')
+             usna == input('choose:')
              if usna in ['']:
              print()
-             elif usna in ['1']
+             elif usna in ['1']:
                  try:
                     r=requests.get('https://google.com')
                  except IOError:
