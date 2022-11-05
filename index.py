@@ -20,9 +20,10 @@ def menu():
             """)
      self.pilih()
 def pilih(self):
-   print('choose:')
+   print()
    usna = input('choose:')
    if usna in ['']:
+       print('masukan nomer nya')
    elif usna in ['1']
        r=requests.get('https://google.com')
    else:
