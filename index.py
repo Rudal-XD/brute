@@ -22,7 +22,7 @@ def menu():
 def pilih(self):
    print('choose:')
    usna = input('choose:')
-   if usna in ['']
+   if usna in ['']:
    elif usna in ['1']
        r=requests.get('https://google.com')
    else:
