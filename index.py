@@ -12,11 +12,14 @@ def banner():
 
 def menu():
      banner()
-     print("""1.menu
+     print("""
+            1.menu
             2.login
             3.(exit)
             """)
+     print()
      self.pilih()
+
 def pilih(self):
    print()
    usna = input('choose:')
