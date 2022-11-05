@@ -5,7 +5,8 @@ def jalan(self):
 		sys.stdout.write('TUNGGU SEBENTAR SEDANG MENG-INSTALL FILE YANG DIPERLUKAN')
 		sys.stdout.flush()
 		time.sleep(0.03)
-
+jalan()
+print()
 time.sleep(1)
 print()
 print()
