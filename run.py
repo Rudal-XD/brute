@@ -1,4 +1,4 @@
-import os,time
+import os,time,sys
 
 def jalan(kontol):
 	for wibu in kontol + "\n":
@@ -50,5 +50,4 @@ time.sleep(2);os.system('clear');os.system('python index.py')
 
 if __name__ == "__main__":
      os.system('git pull')
-     main()
      jalan()
