@@ -8,7 +8,7 @@ def jalan(self):
 
 if __name__ == "__main__":
      os.system()
-     jalan('MAU LO GUA BUNUH ANJ')
+     jalan('self')
 
 os.system('clear')
 print()
