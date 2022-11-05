@@ -16,8 +16,6 @@ try:
                  except IOError:
                     print('error')
                     exit('maaf script error')
-               else:
-                    exit('hahaha')   
 except IOError:
    print('jangan kosong kak')
    os.system('git pull')
