@@ -1,5 +1,6 @@
 import os,time,requests,datetime,random 
 
+import self
 import rich
 import bs4
 import requests
