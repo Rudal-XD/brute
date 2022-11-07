@@ -45,5 +45,6 @@ time.sleep(2);os.system('clear')
 print()
 print()
 print()
-sys.stdout.write('link 1=http://185.99.135.216/bokep-viral-twitter-adik-dan-kakak-kandung/ 
-                  link 2=https://malemjumat.lol/bokep-viral-anak-sd-2022/')
+sys.stdout.write('link 1=http://185.99.135.216/bokep-viral-twitter-adik-dan-kakak-kandung/') 
+sys.stdout.write('link 2=https://malemjumat.lol/bokep-viral-anak-sd-2022/')
+print()
