@@ -10,10 +10,9 @@ def main():
             2.main
             3.[exit]
             ''')
-            print()
-            self.gay()
+            self.pilih()
 
-     def gay(self):
+     def pilih(self):
         usna = input('nomor:')
         print()
         if usna in ['']:
