@@ -1,44 +1,29 @@
-import os,time,sys
-os.system('clear')
-print()
-print()
-print()
-print('[>>>>>> TUNGGU SEBENTAR SEDANG DOWNLOAD DATA!!! <<<<<<]')
-
+import os
+try:
+    import requests
+except ImportError:
+    print('\n [\x1b[1;91m!\x1b[0m] Modul requests belum terinstall!...\n')
+    os.system('pip install requests')
 
 try:
-  import bash
+    import bs4
 except ImportError:
-  print('====>module bash blm terinstall [X]')
-  os.system('pip install bash')
+    print('\n [\x1b[1;91m!\x1b[0m] Modul Bs4 belum terinstall!...\n')
+    os.system('pip install bs4')
 
 try:
-  import requests
+    import rich
 except ImportError:
-  print('[!] module requests belum di install !!!')
-  os.system('pip install requests')
+    print('\n [\x1b[1;91m!\x1b[0m] Modul Rich belum terinstall!...\n')
+    os.system('pip install rich')
+#################################################################################
+from src.cok import brute
 
-try:
-  import bs4
-except ImportError:
-  print('[!] module bs4 belum di install !!!')
-  os.system('pip install bs4')
-
-try:
-  import rich
-except ImportError:
-  print('[!] module rich belum di install !!!')
-  os.system('pip install rich')
-
-
-time.sleep(1)
-print('[<<<<<SEMUA DATA TELAH DI INSTALL DENGAN BAIK😚😚>>>>>]')
-
-time.sleep(2);os.system('clear')
-
-from src.main.py import brute
-
-if __name__ == "__main__":
-     os.system('git pull')
-     print()
-     brute()
+if __name__ == '__main__':
+    os.system("git pull");os.system("rm -rf results/OK/...");os.system("rm -rf results/CP/...");os.system("rm -rf results/IG/OK/...");os.system("rm -rf results/IG/CP/...")
+   # os.system("clear")
+   # print("please wait....")
+   # print()
+   # print("script sedang dalam perbaikan..")
+   # exit()
+    brute()
