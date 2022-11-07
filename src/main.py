@@ -10,7 +10,9 @@ def main():
             2.main
             3.[exit]
             ''')
+            print()
             self.gay()
+
      def gay(self):
         usna = input('nomor:')
         print()
