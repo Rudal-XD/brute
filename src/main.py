@@ -13,8 +13,9 @@ def main():
 
      def pilih():
         usna = input('nomor:')
-        print()
+            print()
         if usna in ['']:
+            print()
         elif usna in ['1']:
             try:
               import rich
