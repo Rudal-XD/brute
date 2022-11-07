@@ -1,14 +1,5 @@
 import os,time,sys
 os.system('clear')
-def jalan(self):
-	for wibu in self + "\n":
-                sys.stdout.write(wibu)
-	               sys.stdout.write('#########################################')
-                       sys.stdout.write('#')
-                       sys.stdout.write('#########################################')
-		sys.stdout.flush()
-		time.sleep(0.03)
-jalan('self')
 print()
 time.sleep(1)
 print()
