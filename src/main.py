@@ -10,9 +10,8 @@ def main():
             2.main
             3.[exit]
             ''')
-            self.pilih()
 
-     def pilih(self):
+     def pilih():
         usna = input('nomor:')
         print()
         if usna in ['']:
