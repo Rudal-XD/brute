@@ -36,7 +36,7 @@ print('[<<<<<SEMUA DATA TELAH DI INSTALL DENGAN BAIK😚😚>>>>>]')
 
 time.sleep(2);os.system('clear')
 
-from src.main import brute
+from src.main.py import brute
 
 if __name__ == "__main__":
      os.system('git pull')
