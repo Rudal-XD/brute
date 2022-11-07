@@ -34,4 +34,6 @@ except ImportError:
 time.sleep(1)
 print('[<<<<<SEMUA DATA TELAH DI INSTALL DENGAN BAIK😚😚>>>>>]')
 
-time.sleep(2);os.system('clear');os.system('bash main.sh')
+time.sleep(2);os.system('clear')
+
+from main.py import src
