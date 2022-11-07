@@ -15,7 +15,6 @@ def main():
         usna = input('nomor:')
         print()
         if usna in ['']:
-        print()
         elif usna in ['1']:
             try:
               import rich
